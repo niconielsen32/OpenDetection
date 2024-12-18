@@ -13,4 +13,4 @@ https://drive.google.com/file/d/1p8XjyBqHfXXQFjQHhIMbljrS_HNx9lqV/view?usp=shari
 Put them under RT-DETR/rtdetrv2_pytorch/dataset/visdrone/train and RT-DETR/rtdetrv2_pytorch/dataset/visdrone/val
 3. Get json files in coco format by running **write_json.py** (This step is optional. I already run and put it in the folder)
 4. Train with **train.py**.
-   **Remark**: I can only train for 3 epochs on google colab and run out of memmory. So I'm not sure if the training parameters are good. It will be cool to create a custom train method which works!
+**Remark**: I can only train for 3 epochs on google colab and run out of memmory. So I'm not sure if the training parameters are good. It will be cool to create a custom train method which works!
